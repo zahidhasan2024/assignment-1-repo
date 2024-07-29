@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* common classes  */
+.default-margin{
+    margin:30px auto;
+}
+.default-padding{
+    padding:20px auto;
+}
+
+.logo{
+    font-weight: bold;
+}
+.btn{
+    font-weight: bold;
+    padding: 10px ;
+    border-radius: 5%;
+}
+.contact-btn{
+    background-color: #493f3f;
+    color: beige;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner{
+margin: 20px auto;
+
+padding: 40px 20px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-bg{
+    background-image: url('./assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dev-section{
+background-color: #f4f0f0;
+padding: 40px;
+}
+
+.head-line{
+    font-weight: bold;
+
+}
+
+
+.card{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 40px;
+}
+.card-btn{
+    color: #493f3f;
+    border-color: #493f3f;
+    padding: 10px 40px;
+}
+.left h3{
+    font-weight: bold;
+}
+.card-middle{
+flex-direction: row-reverse;
+justify-content: flex-end;
+}
+.card-border{
+    border: 1px solid #ddd;
+    border-radius: 1.1em;
+}
+.card-btn-2{
+    border: 0;
+    text-decoration: underline;
+}
+.card-img{
+    width: 200px;
+    margin: 0 auto;
+}
+iframe{
+    border-radius: 1.1em;
+
+    
+    border: 2px solid #ddd;
+    padding: 30px;
+    border-radius: 1.1em;
+    margin: auto;
+}
+
+.support-form input{
+ width: 300px;
+ height: 37px;
+ border-radius: .4em;
+
+}
+.support-form button{
+ height: 40px;
+ border-radius: .4em;
+ padding: 5px 15px;
+}
+.support{
+    background-image: url('./assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-radius: 0.9em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-dev{
+    color:#524e4e
+}
+.card-current{
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 300px;
+    padding: 10px;
+    background-color: #ffb8b86b;
+text-align: left;
+border-radius: .5em;
+}
+.current-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+.middle-card{
+    background-color: #b8f2ff6b;
+}
